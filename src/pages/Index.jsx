@@ -77,27 +77,27 @@ const Index = () => {
 
       {/* Transaction Types */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <Select>
+        <Select defaultValue="airmee">
           <SelectTrigger>
-            <SelectValue placeholder="Shipping Type" />
+            <SelectValue />
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="airmee">AIRMEE</SelectItem>
             {/* Add more shipping options */}
           </SelectContent>
         </Select>
-        <Select>
+        <Select defaultValue="default">
           <SelectTrigger>
-            <SelectValue placeholder="Handling Type" />
+            <SelectValue />
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="default">DEFAULT</SelectItem>
             {/* Add more handling options */}
           </SelectContent>
         </Select>
-        <Select>
+        <Select defaultValue="klarna">
           <SelectTrigger>
-            <SelectValue placeholder="Payment Type" />
+            <SelectValue />
           </SelectTrigger>
           <SelectContent>
             <SelectItem value="klarna">KLARNA</SelectItem>
